@@ -2,7 +2,10 @@
 
 require_relative "hello_world_gem/version"
 
-module HelloWorldGem
+class HelloWorldGem
   class Error < StandardError; end
-  # Your code goes here...
+
+  def self.hello
+    "hello world"
+  end
 end

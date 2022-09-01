@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module HelloWorldGem
+class HelloWorldGem
   VERSION = "0.1.0"
 end
